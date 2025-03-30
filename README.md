@@ -1,4 +1,23 @@
-# Laravel + Vue Starter Kit
+# Badge Print
+
+Small sample php project running Laravel and Vue.js to get familar with the language. Using the base of Laravel + Vue Starter Kit, it is extended with:
+- Database table storage of con attendies name, photo
+- Storage of background image
+- Way to take payment with SumUp
+- Print functionality by creating flattened outputs with given user and 
+
+## Getting started:
+
+Install php and Laravel CLI tool
+Build compser.lock with `composer install`
+Build database file with `php artisan migrate`
+Build app with `npm install && npm run build`
+Create an .env file from the example to store local 
+Build app key with `php artisan key:generate`
+Run with `composer run dev`
+
+
+# Base: Laravel + Vue Starter Kit
 
 ## Introduction
 
